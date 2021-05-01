@@ -1,0 +1,13 @@
+django 3.8.2
+django-rest-framework 
+djando-cors-headers
+djoser
+pillow
+stripe
+
+
+npm
+vue
+
+npm axios
+npm bulma
