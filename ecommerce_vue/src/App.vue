@@ -4,7 +4,7 @@
       <div class="navbar-brand">
         <router-link to="/" class="navbar-item"><strong>Pasal</strong></router-link>
 
-        <a class="navbar-burger" aria-label="menu" aria-expanded="false" data-target='navabar-menu' @click="showMobileMenu= !showMobileMenu">
+        <a class="navbar-burger" aria-label="menu" aria-expanded="false" data-target='navabar-menu' @click="showMobileMenu = !showMobileMenu">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -40,15 +40,13 @@
 </template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
-
-export default defineComponent({
-  setup() {
+export default {
+  data() {
     return{
       showMobileMenu: false,
     }
   },
-})
+}
 </script>
 
 <style lang="scss">
